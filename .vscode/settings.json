@@ -1,0 +1,14 @@
+{
+    "containerApps.deploymentConfigurations": [
+        {
+            "label": "chatgpt-in-slack",
+            "type": "AcrDockerBuildRequest",
+            "dockerfilePath": "Dockerfile",
+            "srcPath": ".",
+            "envPath": "",
+            "resourceGroup": "chatgpt-in-slack",
+            "containerApp": "chatgpt-in-slack",
+            "containerRegistry": "chatgptinslackd62636"
+        }
+    ]
+}

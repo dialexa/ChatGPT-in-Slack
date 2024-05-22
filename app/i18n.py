@@ -83,7 +83,6 @@ def translate(*, openai_api_key: Optional[str], context: BoltContext, text: str)
         temperature=1,
         presence_penalty=0,
         frequency_penalty=0,
-        logit_bias={},
         user="system",
     )
     translated_text = response.model_dump()["choices"][0]["message"].get("content")

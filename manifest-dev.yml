@@ -6,7 +6,7 @@ features:
     messages_tab_enabled: true
     messages_tab_read_only_enabled: false
   bot_user:
-    display_name: ChatGPT Bot (dev)
+    display_name: Dialexa AI (dev)
     always_online: true
   shortcuts:
     - name: Summarize this thread

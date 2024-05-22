@@ -1,5 +1,5 @@
 display_information:
-  name: ChatGPT
+  name: DialexaAI
   description: Interact with ChatGPT in Slack!
   background_color: "#195208"
 features:
@@ -8,13 +8,8 @@ features:
     messages_tab_enabled: true
     messages_tab_read_only_enabled: false
   bot_user:
-    display_name: ChatGPT Bot
-    always_online: true
-  shortcuts:
-    - name: Summarize this thread
-      type: message
-      callback_id: summarize-thread
-      description: Summarize the discussion in a thread
+    display_name: Dialexa AI
+    always_online: truesource .venv/bin/activate
 oauth_config:
   redirect_urls:
     - https://TODO.amazonaws.com/slack/oauth_redirect
